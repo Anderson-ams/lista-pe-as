@@ -33,7 +33,7 @@ public class Peca {
 		this.status = newPeca.getStatus();
 		this.nome = newPeca.getNome();
 		this.descricao = newPeca.getDescricao();
-		
+		this.idPeca = UUID.randomUUID();
 	}
 
 }
